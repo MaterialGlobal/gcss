@@ -9,18 +9,18 @@
 </head>
 <body>
   <div id="app"><center>
-    <h1 id="{{ idclass }}">{{ message }}</h1><br>
-    <h2 id="{{ idclass }}">{{ message }}</h2><br>
-    <h3 id="{{ idclass }}">{{ message }}</h3><br>
-    <h4 id="{{ idclass }}">{{ message }}</h4><br>
-    <h5 id="{{ idclass }}">{{ message }}</h5><br>
+    <h1 :id="idclass">{{ message }}</h1><br>
+    <h2 :id="idclass">{{ message }}</h2><br>
+    <h3 :id="idclass">{{ message }}</h3><br>
+    <h4 :id="idclass">{{ message }}</h4><br>
+    <h5 :id="idclass">{{ message }}</h5>
     <br><br>
-    <button class="{{ mainclass }}">{{ message }}</button>
+    <button :class="mainclass">{{ message }}</button>
     <br><br>
-    <input id="{{ inputclass }}" type="text" v-model='idclass' placeholder="fonts-lato-300">
-    <input id="{{ inputclass }}" type="text" v-model='inputclass' placeholder="input-dot-1">
-    <input id="{{ inputclass }}" type="text" v-model='buttonclass' placeholder="button-round-14">
-    <input id="{{ inputclass }}" type="text" v-model='message' placeholder="The quick brown fox jumps over the lazy dog">
+    <input :id="inputclass" type="text" v-model='idclass' placeholder="fonts-lato-300">
+    <input :id="inputclass" type="text" v-model='inputclass' placeholder="input-dot-100">
+    <input :id="inputclass" type="text" v-model='buttonclass' placeholder="button-round-14">
+    <input :id="inputclass" type="text" v-model='message' placeholder="The quick brown fox jumps over the lazy dog">
   </center></div>
 </body>
 </html>
