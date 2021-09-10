@@ -198,35 +198,35 @@
     transition-duration: 0.3s;
 }
 
-#buttons-colors-red:hover {background-color: #99ff99;}
+#buttons-colors-green:hover {background-color: #99ff99;}
 
 #buttons-colors-blue {
     background-color: #4d94ff;
     transition-duration: 0.3s;
 }
 
-#buttons-colors-red:hover {background-color: #80b3ff;}
+#buttons-colors-blue:hover {background-color: #80b3ff;}
 
 #buttons-colors-yellow {
     background-color: #ffff4d;
     transition-duration: 0.3s;
 }
 
-#buttons-colors-red:hover {background-color: #ffff80;}
+#buttons-colors-pink:hover {background-color: #ffff80;}
 
 #buttons-colors-pink {
     background-color: #ff66ff;
     transition-duration: 0.3s;
 }
 
-#buttons-colors-red:hover {background-color: #ff99ff;}
+#buttons-colors-purple:hover {background-color: #ff99ff;}
 
 #buttons-colors-purple {
     background-color: #9933ff;
     transition-duration: 0.3s;
 }
 
-#buttons-colors-red:hover {background-color: #b366ff;}
+#buttons-colors-purple:hover {background-color: #b366ff;}
 
 #buttons-flat-80 {
     border: none;
