@@ -236,6 +236,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 8px;
+    cursor: pointer;
 }
 
 .buttons-flat-160 {
@@ -246,6 +247,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .buttons-flat-240 {
@@ -256,6 +258,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 24px;
+    cursor: pointer;
 }
 
 .buttons-flat-320 {
@@ -266,6 +269,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 32px;
+    cursor: pointer;
 }
 
 .buttons-round-80 {
@@ -277,6 +281,7 @@
     display: inline-block;
     font-size: 8px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .buttons-round-160 {
@@ -288,6 +293,7 @@
     display: inline-block;
     font-size: 16px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .buttons-round-240 {
@@ -299,6 +305,7 @@
     display: inline-block;
     font-size: 24px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .buttons-round-320 {
@@ -310,4 +317,5 @@
     display: inline-block;
     font-size: 32px;
     border-radius: 5px;
+    cursor: pointer;
 }
