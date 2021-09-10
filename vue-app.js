@@ -2,8 +2,7 @@ const app = new Vue({
     el: '#app',
     data: {
         idclass: 'fonts-lato-300',
-        inputclass: 'input-dot-100',
-        buttonclass: 'button-round-14',
+        inputclass: 'inputs-dot-100',
         message: 'The quick brown fox jumps over the lazy dog'
     }
 });

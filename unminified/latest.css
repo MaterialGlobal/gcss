@@ -189,6 +189,7 @@
 .buttons-colors-red {
     background-color: #ff5050;
     transition-duration: 0.3s;
+    color: white;
 }
 
 .buttons-colors-red:hover {background-color: #ff8080;}
@@ -196,6 +197,7 @@
 .buttons-colors-green {
     background-color: #66ff66;
     transition-duration: 0.3s;
+    color: black;
 }
 
 .buttons-colors-green:hover {background-color: #99ff99;}
@@ -210,16 +212,17 @@
 .buttons-colors-yellow {
     background-color: #ffff4d;
     transition-duration: 0.3s;
+    color: black;
 }
 
-.buttons-colors-pink:hover {background-color: #ffff80;}
+.buttons-colors-yellow:hover {background-color: #ffff80;}
 
 .buttons-colors-pink {
     background-color: #ff66ff;
     transition-duration: 0.3s;
 }
 
-.buttons-colors-purple:hover {background-color: #ff99ff;}
+.buttons-colors-pink:hover {background-color: #ff99ff;}
 
 .buttons-colors-purple {
     background-color: #9933ff;
