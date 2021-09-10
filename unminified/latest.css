@@ -197,7 +197,6 @@
 .buttons-colors-green {
     background-color: #66ff66;
     transition-duration: 0.3s;
-    color: black;
 }
 
 .buttons-colors-green:hover {background-color: #99ff99;}
@@ -213,7 +212,6 @@
 .buttons-colors-yellow {
     background-color: #ffff4d;
     transition-duration: 0.3s;
-    color: black;
 }
 
 .buttons-colors-yellow:hover {background-color: #ffff80;}
