@@ -3,6 +3,7 @@ const app = new Vue({
     data: {
         idclass: 'fonts-lato-300',
         inputclass: 'inputs-dot-100',
-        message: 'The quick brown fox jumps over the lazy dog'
+        message1: 'The quick brown fox jumps over the lazy dog',
+        message2: 'abc'
     }
 });

@@ -231,6 +231,17 @@
 
 .buttons-colors-purple:hover {background-color: #b366ff;}
 
+.buttons-flat-100 {
+    border: none;
+    color: white;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+}
+
 .buttons-flat-120 {
     border: none;
     color: white;
@@ -283,6 +294,18 @@
     text-decoration: none;
     display: inline-block;
     font-size: 32px;
+    cursor: pointer;
+}
+
+.buttons-round-100 {
+    border: none;
+    color: white;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
