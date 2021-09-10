@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GCSS Viewer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="https://gcss.honk.digital/latest.min.css" rel='stylesheet'>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+  <script src='vue-app.js' defer></script>
+</head>
+<body>
+  <div id="app"><center>
+    <h1 id="{{ idclass }}">{{ message }}</h1><br>
+    <h2 id="{{ idclass }}">{{ message }}</h2><br>
+    <h3 id="{{ idclass }}">{{ message }}</h3><br>
+    <h4 id="{{ idclass }}">{{ message }}</h4><br>
+    <h5 id="{{ idclass }}">{{ message }}</h5><br>
+    <br><br>
+    <button class="{{ mainclass }}">{{ message }}</button>
+    <br><br>
+    <input id="{{ inputclass }}" type="text" v-model='idclass' placeholder="fonts-lato-300">
+    <input id="{{ inputclass }}" type="text" v-model='inputclass' placeholder="input-dot-1">
+    <input id="{{ inputclass }}" type="text" v-model='buttonclass' placeholder="button-round-14">
+    <input id="{{ inputclass }}" type="text" v-model='message' placeholder="The quick brown fox jumps over the lazy dog">
+  </center></div>
+</body>
+</html>
