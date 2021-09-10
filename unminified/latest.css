@@ -186,49 +186,49 @@
     border: 3px dotted;
 }
 
-#buttons-colors-red {
+.buttons-colors-red {
     background-color: #ff5050;
     transition-duration: 0.3s;
 }
 
-#buttons-colors-red:hover {background-color: #ff8080;}
+.buttons-colors-red:hover {background-color: #ff8080;}
 
-#buttons-colors-green {
+.buttons-colors-green {
     background-color: #66ff66;
     transition-duration: 0.3s;
 }
 
-#buttons-colors-green:hover {background-color: #99ff99;}
+.buttons-colors-green:hover {background-color: #99ff99;}
 
-#buttons-colors-blue {
+.buttons-colors-blue {
     background-color: #4d94ff;
     transition-duration: 0.3s;
 }
 
-#buttons-colors-blue:hover {background-color: #80b3ff;}
+.buttons-colors-blue:hover {background-color: #80b3ff;}
 
-#buttons-colors-yellow {
+.buttons-colors-yellow {
     background-color: #ffff4d;
     transition-duration: 0.3s;
 }
 
-#buttons-colors-pink:hover {background-color: #ffff80;}
+.buttons-colors-pink:hover {background-color: #ffff80;}
 
-#buttons-colors-pink {
+.buttons-colors-pink {
     background-color: #ff66ff;
     transition-duration: 0.3s;
 }
 
-#buttons-colors-purple:hover {background-color: #ff99ff;}
+.buttons-colors-purple:hover {background-color: #ff99ff;}
 
-#buttons-colors-purple {
+.buttons-colors-purple {
     background-color: #9933ff;
     transition-duration: 0.3s;
 }
 
-#buttons-colors-purple:hover {background-color: #b366ff;}
+.buttons-colors-purple:hover {background-color: #b366ff;}
 
-#buttons-flat-80 {
+.buttons-flat-80 {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -238,7 +238,7 @@
     font-size: 8px;
 }
 
-#buttons-flat-160 {
+.buttons-flat-160 {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -248,7 +248,7 @@
     font-size: 16px;
 }
 
-#buttons-flat-240 {
+.buttons-flat-240 {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -258,7 +258,7 @@
     font-size: 24px;
 }
 
-#buttons-flat-320 {
+.buttons-flat-320 {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -268,7 +268,7 @@
     font-size: 32px;
 }
 
-#buttons-round-80 {
+.buttons-round-80 {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -279,7 +279,7 @@
     border-radius: 5px;
 }
 
-#buttons-round-160 {
+.buttons-round-160 {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -290,7 +290,7 @@
     border-radius: 5px;
 }
 
-#buttons-round-240 {
+.buttons-round-240 {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -301,7 +301,7 @@
     border-radius: 5px;
 }
 
-#buttons-round-320 {
+.buttons-round-320 {
     border: none;
     color: white;
     padding: 15px 32px;
