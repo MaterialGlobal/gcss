@@ -8,10 +8,10 @@ It's quite simple. Just add `<link href="https://gcss.honk.digital/latest.min.cs
 Explanation in detail is available on https://gcss.honk.digital/docs.
 
 ## 📚 Useful links and additional information
-Documentation: [https://gcss.honk.digital/docs](https://gcss.honk.digital/docs)<br>
-Viewer: [https://gcss.honk.digital/docs](https://gcss.honk.digital/viewer)<br>
-Website: [https://gcss.honk.digital/docs](https://gcss.honk.digital)<br>
-Roadmap on Trello: [https://gcss.honk.digital/roadmap](https://gcss.honk.digital/docs)<br>
+Documentation: [https://gcss.honk.digital/r/docs](https://gcss.honk.digital/r/docs)<br>
+Viewer: [https://gcss.honk.digital/viewer](https://gcss.honk.digital/viewer)<br>
+Website: [https://gcss.honk.digital](https://gcss.honk.digital)<br>
+Roadmap on Trello: [https://gcss.honk.digital/r/roadmap](https://gcss.honk.digital/r/roadmap)<br>
 Report GCSS Issues [here](https://github.com/honklol/gcss/issues)
 
 ## 📌 Credits
