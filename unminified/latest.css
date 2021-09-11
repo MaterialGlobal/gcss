@@ -1,7 +1,7 @@
 @import url('https://gcss.honk.digital/fonts.min.css');
 @import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
 
-.body {
+* {
     font-family: 'Roboto', sans-serif;
     font-weight: 400
 }
