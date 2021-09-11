@@ -145,7 +145,7 @@
     display: inline-block;
 }
   
-#tooltips-div #tooltips-top-text {
+#tooltips-div #tooltips-bottom-text {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -162,7 +162,7 @@
     transition: opacity 0.3s;
 }
   
-#tooltips-div #tooltips-top-text::after {
+#tooltips-div #tooltips-bottom-text::after {
     content: "";
     position: absolute;
     bottom: 100%;
@@ -173,12 +173,12 @@
     border-color: transparent transparent black transparent;
 }
   
-#tooltips-div:hover #tooltips-top-text {
+#tooltips-div:hover #tooltips-bottom-text {
     visibility: visible;
     opacity: 1;
 }
 
-#tooltips-div #tooltips-bottom-text {
+#tooltips-div #tooltips-top-text {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -195,7 +195,7 @@
     transition: opacity 0.3s;
 }
   
-#tooltips-div #tooltips-bottom-text::after {
+#tooltips-div #tooltips-top-text::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -206,12 +206,12 @@
     border-color: black transparent transparent transparent;
 }
   
-#tooltips-div:hover #tooltips-bottom-text {
+#tooltips-div:hover #tooltips-top-text {
     visibility: visible;
     opacity: 1;
 }
   
-#tooltips-div #tooltips-left-text {
+#tooltips-div #tooltips-right-text {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -227,7 +227,7 @@
     transition: opacity 0.3s;
 }
   
-#tooltips-div #tooltips-left-text::after {
+#tooltips-div #tooltips-right-text::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -238,12 +238,12 @@
     border-color: transparent black transparent transparent;
 }
 
-#tooltips-div:hover #tooltips-left-text {
+#tooltips-div:hover #tooltips-right-text {
     visibility: visible;
     opacity: 1;
 }
 
-#tooltips-div #tooltips-right-text {
+#tooltips-div #tooltips-left-text {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -259,7 +259,7 @@
     transition: opacity 0.3s;
 }
   
-#tooltips-div #tooltips-right-text::after {
+#tooltips-div #tooltips-left-text::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -270,7 +270,7 @@
     border-color: transparent transparent transparent black;
 }
 
-#tooltips-div:hover #tooltips-right-text {
+#tooltips-div:hover #tooltips-left-text {
     visibility: visible;
     opacity: 1;
 }
