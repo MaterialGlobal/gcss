@@ -15,15 +15,16 @@
     <h4 :id="idclass">{{ message1 }}</h4>
     <h5 :id="idclass">{{ message1 }}</h5>
     <br>
-    <div id="tooltips-div">Top tooltip<span :id="idclass" id="tooltips-top-text">{{ message3 }}</span></div>    <div id="tooltips-div">Bottom tooltip<span :id="idclass" id="tooltips-bottom-text">{{ message3 }}</span></div><br>
-    <div id="tooltips-div">Left tooltip<span :id="idclass" id="tooltips-left-text">{{ message3 }}</span></div>    <div id="tooltips-div">Right tooltip<span :id="idclass" id="tooltips-right-text">{{ message3 }}</span></div>
-    <br>
-    <button :id="idbuttonclass" class="buttons-round buttons-colors-red">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-round buttons-colors-green">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-round buttons-colors-blue">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-round buttons-colors-yellow">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-round buttons-colors-pink">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-round buttons-colors-purple">{{ message2 }}</button>
+    <div id="tooltips-div">Top tooltip<span :id="idclass" id="tooltips-top-text">{{ message3 }}</span></div>  -  <div id="tooltips-div">Bottom tooltip<span :id="idclass" id="tooltips-bottom-text">{{ message3 }}</span></div><br>
+    <div id="tooltips-div">Left tooltip<span :id="idclass" id="tooltips-left-text">{{ message3 }}</span></div>  -  <div id="tooltips-div">Right tooltip<span :id="idclass" id="tooltips-right-text">{{ message3 }}</span></div>
+    <br><br><br>
+    <button :class="buttonsize" :id="idbuttonclass" class="buttons-round buttons-colors-red">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-round buttons-colors-green">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-round buttons-colors-blue">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-round buttons-colors-yellow">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-round buttons-colors-pink">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-round buttons-colors-purple">{{ message2 }}</button>
     <br><br>
     <button :id="idbuttonclass" class="buttons-flat buttons-colors-red">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-flat buttons-colors-green">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-flat buttons-colors-blue">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-flat buttons-colors-yellow">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-flat buttons-colors-pink">{{ message2 }}</button> <button :id="idbuttonclass" class="buttons-flat buttons-colors-purple">{{ message2 }}</button>
     <br><br><br>
     <input :id="inputclass" type="text" v-model='idclass' maxlength="25" size="20" placeholder="fonts-lato">
     <input :id="inputclass" type="text" v-model='idbuttonclass' maxlength="25" size="20" placeholder="fonts-lato">
+    <input :id="inputclass" type="text" v-model='buttonsize' maxlength="25" size="20" placeholder="buttons-size-4">
     <input :id="inputclass" type="text" v-model='inputclass' maxlength="25" size="20" placeholder="inputs-dot-100"><br>
     <input :id="inputclass" type="text" v-model='message1' maxlength="75" size="43" placeholder="The quick brown fox jumps over the lazy dog">
     <input :id="inputclass" type="text" v-model='message2' maxlength="60" size="20" placeholder="abc"><br>

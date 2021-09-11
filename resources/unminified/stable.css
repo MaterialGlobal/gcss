@@ -1,0 +1,87 @@
+@import url('https://gcss.honk.digital/resources/fonts.min.css');
+@import url('https://necolas.github.io/normalize.css/latest/normalize.css');
+
+* {font-family: 'Roboto', sans-serif;font-weight: 400}
+#resetfont {font-family: 'Times New Roman', Times, serif}
+
+#fonts-weight-100 {font-weight: 100 !important}
+#fonts-weight-200 {font-weight: 200 !important}
+#fonts-weight-300 {font-weight: 300 !important}
+#fonts-weight-400 {font-weight: 400 !important}
+#fonts-weight-500 {font-weight: 500 !important}
+#fonts-weight-600 {font-weight: 600 !important}
+#fonts-weight-700 {font-weight: 700 !important}
+#fonts-weight-800 {font-weight: 800 !important}
+#fonts-weight-900 {font-weight: 900 !important}
+
+#fonts-lato {font-family:'Lato',sans-serif}
+#fonts-montserrat {font-family:'Montserrat',sans-serif}
+#fonts-glory {font-family:'Glory',sans-serif}
+#fonts-raleway {font-family:'Raleway',sans-serif}
+#fonts-bebas_neue {font-family:'Bebas Neue',cursive}
+#fonts-comic_neue {font-family:'Comic Neue',cursive}
+#fonts-comfortaa {font-family:'Comfortaa',cursive}
+#fonts-dosis {font-family:'Dosis',sans-serif}
+#fonts-josefin_sans {font-family:'Josefin Sans',sans-serif}
+#fonts-open_sans_condensed {font-family:'Open Sans Condensed',sans-serif}
+#fonts-roboto {font-family:'Roboto',sans-serif}
+#fonts-urbanist {font-family:'Urbanist',sans-serif}
+#fonts-varela_round {font-family:'Varela Round',sans-serif}
+#fonts-quicksand {font-family:'Quicksand',sans-serif}
+
+#inputs-clear {border: 0}
+#inputs-dot-100 {border: 0;border-bottom: 1px dotted}
+#inputs-dot-200 {border: 0;border-bottom: 2px dotted}
+#inputs-dot-300 {border: 0;border-bottom: 3px dotted}
+
+#inputs-fulldot-100 {border: 1px dotted}
+#inputs-fulldot-200 {border: 2px dotted}
+#inputs-fulldot-300 {border: 3px dotted}
+
+.buttons-colors-red {background-color: #ff5050;transition-duration: 0.3s;color: white}
+.buttons-colors-red:hover {background-color: #ff8080}
+
+.buttons-colors-green {background-color: #66ff66;transition-duration: 0.3s;}
+.buttons-colors-green:hover {background-color: #99ff99}
+
+.buttons-colors-blue {background-color: #4d94ff;transition-duration: 0.3s;color: white}
+.buttons-colors-blue:hover {background-color: #80b3ff}
+
+.buttons-colors-yellow {background-color: #ffff4d;transition-duration: 0.3s}
+.buttons-colors-yellow:hover {background-color: #ffffb3;}
+
+.buttons-colors-pink {background-color: #ff66ff;transition-duration: 0.3s;color: white}
+.buttons-colors-pink:hover {background-color: #ff99ff}
+
+.buttons-colors-purple {background-color: #9933ff;transition-duration: 0.3s;color: white}
+.buttons-colors-purple:hover {background-color: #b366ff}
+
+.buttons-size-1 {font-size: 10px !important}
+.buttons-size-2 {font-size: 12px !important}
+.buttons-size-3 {font-size: 14px !important}
+.buttons-size-4 {font-size: 16px !important}
+.buttons-size-5 {font-size: 24px !important}
+.buttons-size-6 {font-size: 32px !important}
+.buttons-size-7 {font-size: 48px !important}
+.buttons-size-8 {font-size: 64px !important}
+
+.buttons-flat {
+    border: none;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buttons-round {
+    border: none;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
