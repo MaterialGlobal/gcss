@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;200;300;400;500;600;700;800&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://gcss.honk.digital/fonts.min.css');
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400
+}
+
+#resetfont {
+    font-family: 'Times New Roman', Times, serif
+}
 
 #fonts-lato-100 {
     font-family: 'Lato', sans-serif;
@@ -153,6 +163,246 @@
 #fonts-raleway-900 {
     font-family: 'Raleway', sans-serif;
     font-weight: 900
+}
+
+#fonts-bebas_neue {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400
+}
+
+#fonts-comic_neue-300 {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 300
+}
+
+#fonts-comic_neue-400 {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 400
+}
+
+#fonts-comic_neue-700 {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700
+}
+
+#fonts-comfortaa-300 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300
+}
+
+#fonts-comfortaa-400 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400
+}
+
+#fonts-comfortaa-500 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500
+}
+
+#fonts-comfortaa-600 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600
+}
+
+#fonts-comfortaa-700 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700
+}
+
+#fonts-dosis-200 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 200
+}
+
+#fonts-dosis-300 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300
+}
+
+#fonts-dosis-400 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400
+}
+
+#fonts-dosis-500 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500
+}
+
+#fonts-dosis-600 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600
+}
+
+#fonts-dosis-800 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800
+}
+
+#fonts-josefin_sans-100 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100
+}
+
+#fonts-josefin_sans-200 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200
+}
+
+#fonts-josefin_sans-300 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300
+}
+
+#fonts-josefin_sans-400 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400
+}
+
+#fonts-josefin_sans-500 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500
+}
+
+#fonts-josefin_sans-600 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600
+}
+
+#fonts-josefin_sans-700 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700
+}
+
+#fonts-open_sans_condensed-300 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300
+}
+
+#fonts-open_sans_condensed-700 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700
+}
+
+#fonts-roboto-100 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100
+}
+
+#fonts-roboto-300 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300
+}
+
+#fonts-roboto-400 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400
+}
+
+#fonts-roboto-500 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500
+}
+
+#fonts-roboto-700 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700
+}
+
+#fonts-roboto-900 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900
+}
+
+#fonts-urbanist-100 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 100
+}
+
+#fonts-urbanist-200 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 200
+}
+
+#fonts-urbanist-300 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 300
+}
+
+#fonts-urbanist-400 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400
+}
+
+#fonts-urbanist-500 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500
+}
+
+#fonts-urbanist-600 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600
+}
+
+#fonts-urbanist-700 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700
+}
+
+#fonts-urbanist-800 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 800
+}
+
+#fonts-urbanist-900 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900
+}
+
+#fonts-urbanist-700 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700
+}
+
+#fonts-urbanist-800 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 800
+}
+
+#fonts-urbanist-900 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900
+}
+
+#fonts-varela_round {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400
+}
+
+#fonts-quicksand-300 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300
+}
+
+#fonts-quicksand-400 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400
+}
+
+#fonts-quicksand-500 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500
+}
+
+#fonts-quicksand-600 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600
+}
+
+#fonts-quicksand-700 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700
 }
 
 #inputs-clear {

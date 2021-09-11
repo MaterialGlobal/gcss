@@ -8,8 +8,12 @@ It's quite simple. Just add `<link href="https://gcss.honk.digital/latest.min.cs
 Explanation in detail is available on https://gcss.honk.digital/docs.
 
 ## 📚 Useful links and additional information
-Documentation: https://gcss.honk.digital/docs<br>
-Viewer: https://gcss.honk.digital/viewer<br>
-Website: https://gcss.honk.digital/<br>
-Roadmap on Trello: https://gcss.honk.digital/roadmap<br>
+Documentation: [https://gcss.honk.digital/docs](https://gcss.honk.digital/docs)<br>
+Viewer: [https://gcss.honk.digital/docs](https://gcss.honk.digital/viewer)<br>
+Website: [https://gcss.honk.digital/docs](https://gcss.honk.digital)<br>
+Roadmap on Trello: [https://gcss.honk.digital/roadmap](https://gcss.honk.digital/docs)<br>
 Report GCSS Issues [here](https://github.com/honklol/gcss/issues)
+
+## 📌 Credits
+GCSS includes normalize.css by default. Check it out by clicking [here](https://necolas.github.io/normalize.css/)! [(GitHub)](https://github.com/necolas/normalize.css)<br>
+GCSS also uses Google Fonts for the fonts. Check it out by clicking [here](https://fonts.google.com)! [(GitHub)](https://github.com/google/fonts)
