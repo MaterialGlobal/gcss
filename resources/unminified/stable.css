@@ -29,22 +29,44 @@
 #fonts-varela_round {font-family:'Varela Round',sans-serif}
 #fonts-quicksand {font-family:'Quicksand',sans-serif}
 
-#opacity-0 {opacity: 0%}
-#opacity-1 {opacity: 10%}
-#opacity-2 {opacity: 20%}
-#opacity-3 {opacity: 30%}
-#opacity-4 {opacity: 40%}
-#opacity-5 {opacity: 50%}
-#opacity-6 {opacity: 60%}
-#opacity-7 {opacity: 70%}
-#opacity-8 {opacity: 80%}
-#opacity-9 {opacity: 90%}
-#opacity-10 {opacity: 1}
+.opacity-0 {opacity: 0% !important}
+.opacity-1 {opacity: 10% !important}
+.opacity-2 {opacity: 20% !important}
+.opacity-3 {opacity: 30% !important}
+.opacity-4 {opacity: 40% !important}
+.opacity-5 {opacity: 50% !important}
+.opacity-6 {opacity: 60% !important}
+.opacity-7 {opacity: 70% !important}
+.opacity-8 {opacity: 80% !important}
+.opacity-9 {opacity: 90% !important}
+.opacity-10 {opacity: 1 !important}
 
-#outlines-dot {outline-style: dotted}
-#outlines-dash {outline-style: dashed}
-#outlines-solid {outline-style: solid}
-#outlines-double {outline-style: double}
+.paddings-0 {padding: 0 !important}
+.paddings-1 {padding: 5px !important}
+.paddings-2 {padding: 10px !important}
+.paddings-3 {padding: 15px !important}
+.paddings-4 {padding: 20px !important}
+.paddings-5 {padding: 25px !important}
+.paddings-6 {padding: 30px !important}
+.paddings-7 {padding: 35px !important}
+.paddings-8 {padding: 40px !important}
+.paddings-9 {padding: 45px !important}
+.paddings-10 {padding: 50px !important}
+.paddings-11 {padding: 55px !important}
+.paddings-12 {padding: 60px !important}
+.paddings-13 {padding: 65px !important}
+.paddings-14 {padding: 70px !important}
+.paddings-15 {padding: 75px !important}
+.paddings-16 {padding: 80px !important}
+.paddings-17 {padding: 85px !important}
+.paddings-18 {padding: 90px !important}
+.paddings-19 {padding: 95px !important}
+.paddings-20 {padding: 100px !important}
+
+.outlines-dot {outline-style: dotted}
+.outlines-dash {outline-style: dashed}
+.outlines-solid {outline-style: solid}
+.outlines-double {outline-style: double}
 
 #inputs-clear {border: 0}
 #inputs-dot-100 {border: 0;border-bottom: 1px dotted}
