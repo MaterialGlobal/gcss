@@ -33,6 +33,35 @@
 #fonts-varela_round {font-family:'Varela Round',sans-serif;}
 #fonts-quicksand {font-family:'Quicksand',sans-serif;}
 
+#opacity-0 {opacity: 0%;}
+#opacity-1 {opacity: 10%;}
+#opacity-2 {opacity: 20%;}
+#opacity-3 {opacity: 30%;}
+#opacity-4 {opacity: 40%;}
+#opacity-5 {opacity: 50%;}
+#opacity-6 {opacity: 60%;}
+#opacity-7 {opacity: 70%;}
+#opacity-8 {opacity: 80%;}
+#opacity-9 {opacity: 90%;}
+#opacity-10 {opacity: 1;}
+
+#paddings-0 {padding: 0;}
+#paddings-1 {padding: 10px;}
+#paddings-2 {padding: 20px;}
+#paddings-3 {padding: 30px;}
+#paddings-4 {padding: 40px;}
+#paddings-5 {padding: 50px;}
+#paddings-6 {padding: 60px;}
+#paddings-7 {padding: 70px;}
+#paddings-8 {padding: 80px;}
+#paddings-9 {padding: 90px;}
+#paddings-10 {padding: 100px;}
+
+#outlines-dot {outline-style: dotted;}
+#outlines-dash {outline-style: dashed;}
+#outlines-solid {outline-style: solid;}
+#outlines-double {outline-style: double;}
+
 #inputs-clear {
     border: 0;
 }

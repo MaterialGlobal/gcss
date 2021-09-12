@@ -29,6 +29,23 @@
 #fonts-varela_round {font-family:'Varela Round',sans-serif}
 #fonts-quicksand {font-family:'Quicksand',sans-serif}
 
+#opacity-0 {opacity: 0%}
+#opacity-1 {opacity: 10%}
+#opacity-2 {opacity: 20%}
+#opacity-3 {opacity: 30%}
+#opacity-4 {opacity: 40%}
+#opacity-5 {opacity: 50%}
+#opacity-6 {opacity: 60%}
+#opacity-7 {opacity: 70%}
+#opacity-8 {opacity: 80%}
+#opacity-9 {opacity: 90%}
+#opacity-10 {opacity: 1}
+
+#outlines-dot {outline-style: dotted}
+#outlines-dash {outline-style: dashed}
+#outlines-solid {outline-style: solid}
+#outlines-double {outline-style: double}
+
 #inputs-clear {border: 0}
 #inputs-dot-100 {border: 0;border-bottom: 1px dotted}
 #inputs-dot-200 {border: 0;border-bottom: 2px dotted}
