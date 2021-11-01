@@ -6,6 +6,7 @@ License available @ https://github.com/honkdevelopment/gcss/blob/code/LICENSE
 Made in Poland with 💖
 */
 
+@import url('https://gcss.honk.digital/external/fonts.min.css');
 .fonts\:reset {font-family: 'Times New Roman', Times, serif}
 
 .fonts\:weight-1 {font-weight: 100 !important;}
