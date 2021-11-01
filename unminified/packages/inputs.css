@@ -1,0 +1,38 @@
+/*
+GCSS Inputs
+Copyright (©) 2020-2021, honkdev
+License available @ https://github.com/honkdevelopment/gcss/blob/code/LICENSE
+
+Made in Poland with 💖
+*/
+
+.inputs-clear {
+    border: 0;
+}
+
+.inputs-dot-100 {
+    border: 0;
+    border-bottom: 1px dotted;
+}
+
+.inputs-dot-200 {
+    border: 0;
+    border-bottom: 2px dotted;
+}
+
+.inputs-dot-300 {
+    border: 0;
+    border-bottom: 3px dotted;
+}
+
+.inputs-fulldot-100 {
+    border: 1px dotted;
+}
+
+.inputs-fulldot-200 {
+    border: 2px dotted;
+}
+
+.inputs-fulldot-300 {
+    border: 3px dotted;
+}

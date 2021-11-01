@@ -1,0 +1,142 @@
+/*
+GCSS Tooltips
+Copyright (©) 2020-2021, honkdev
+License available @ https://github.com/honkdevelopment/gcss/blob/code/LICENSE
+
+Made in Poland with 💖
+*/
+
+.tooltips\:div {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltips\:div .tooltips\:bottom-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+.tooltips\:div .tooltips\:bottom-text::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -4px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+  
+.tooltips\:div:hover .tooltips\:bottom-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltips\:div .tooltips\:top-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+.tooltips\:div .tooltips\:top-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -4px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+  
+.tooltips\:div:hover .tooltips\:top-text {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.tooltips\:div .tooltips\:right-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+.tooltips\:div .tooltips\:right-text::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+
+.tooltips\:div:hover .tooltips\:right-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltips\:div .tooltips\:left-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 110%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+.tooltips\:div .tooltips\:left-text::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+
+.tooltips\:div:hover .tooltips\:left-text {
+    visibility: visible;
+    opacity: 1;
+}
