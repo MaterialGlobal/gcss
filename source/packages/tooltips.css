@@ -8,7 +8,7 @@ Made in Poland with 💖
 
 .tooltips\:div {
     position: relative;
-    display: inline-block;
+    display: inline-block
 }
   
 .tooltips\:div .tooltips\:bottom-text {
@@ -25,7 +25,7 @@ Made in Poland with 💖
     left: 50%;
     margin-left: -60px;
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.3s
 }
   
 .tooltips\:div .tooltips\:bottom-text::after {
@@ -36,12 +36,12 @@ Made in Poland with 💖
     margin-left: -4px;
     border-width: 4px;
     border-style: solid;
-    border-color: transparent transparent black transparent;
+    border-color: transparent transparent black transparent
 }
   
 .tooltips\:div:hover .tooltips\:bottom-text {
     visibility: visible;
-    opacity: 1;
+    opacity: 1
 }
 
 .tooltips\:div .tooltips\:top-text {
@@ -58,7 +58,7 @@ Made in Poland with 💖
     left: 50%;
     margin-left: -60px;
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.3s
 }
   
 .tooltips\:div .tooltips\:top-text::after {
@@ -69,12 +69,12 @@ Made in Poland with 💖
     margin-left: -4px;
     border-width: 4px;
     border-style: solid;
-    border-color: black transparent transparent transparent;
+    border-color: black transparent transparent transparent
 }
   
 .tooltips\:div:hover .tooltips\:top-text {
     visibility: visible;
-    opacity: 1;
+    opacity: 1
 }
   
 .tooltips\:div .tooltips\:right-text {
@@ -90,7 +90,7 @@ Made in Poland with 💖
     top: -5px;
     left: 110%;
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.3s
 }
   
 .tooltips\:div .tooltips\:right-text::after {
@@ -101,12 +101,12 @@ Made in Poland with 💖
     margin-top: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent black transparent transparent;
+    border-color: transparent black transparent transparent
 }
 
 .tooltips\:div:hover .tooltips\:right-text {
     visibility: visible;
-    opacity: 1;
+    opacity: 1
 }
 
 .tooltips\:div .tooltips\:left-text {
@@ -122,7 +122,7 @@ Made in Poland with 💖
     top: -5px;
     right: 110%;
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.3s
 }
   
 .tooltips\:div .tooltips\:left-text::after {
@@ -133,10 +133,10 @@ Made in Poland with 💖
     margin-top: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent transparent black;
+    border-color: transparent transparent transparent black
 }
 
 .tooltips\:div:hover .tooltips\:left-text {
     visibility: visible;
-    opacity: 1;
+    opacity: 1
 }

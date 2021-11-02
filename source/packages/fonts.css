@@ -1,0 +1,35 @@
+/*
+GCSS Fonts
+Copyright (©) 2020-2021, honkdev
+License available @ https://github.com/honkdevelopment/gcss/blob/code/LICENSE
+
+Made in Poland with 💖
+*/
+
+@import url('https://gcss.honk.digital/external/fonts.min.css');
+.fonts\:reset {font-family: 'Times New Roman', Times, serif}
+
+.fonts\:weight-1 {font-weight: 100 !important}
+.fonts\:weight-2 {font-weight: 200 !important}
+.fonts\:weight-3 {font-weight: 300 !important}
+.fonts\:weight-4 {font-weight: 400 !important}
+.fonts\:weight-5 {font-weight: 500 !important}
+.fonts\:weight-6 {font-weight: 600 !important}
+.fonts\:weight-7 {font-weight: 700 !important}
+.fonts\:weight-8 {font-weight: 800 !important}
+.fonts\:weight-9 {font-weight: 900 !important}
+
+.fonts\:lato {font-family:'Lato',sans-serif}
+.fonts\:montserrat {font-family:'Montserrat',sans-serif}
+.fonts\:glory {font-family:'Glory',sans-serif}
+.fonts\:raleway {font-family:'Raleway',sans-serif}
+.fonts\:bebas_neue {font-family:'Bebas Neue',cursive}
+.fonts\:comic_neue {font-family:'Comic Neue',cursive}
+.fonts\:comfortaa {font-family:'Comfortaa',cursive}
+.fonts\:dosis {font-family:'Dosis',sans-serif}
+.fonts\:josefin_sans {font-family:'Josefin Sans',sans-serif}
+.fonts\:open_sans_condensed {font-family:'Open Sans Condensed',sans-serif}
+.fonts\:roboto {font-family:'Roboto',sans-serif}
+.fonts\:urbanist {font-family:'Urbanist',sans-serif}
+.fonts\:varela_round {font-family:'Varela Round',sans-serif}
+.fonts\:quicksand {font-family:'Quicksand',sans-serif}

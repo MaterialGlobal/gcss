@@ -9,14 +9,14 @@ Made in Poland with 💖
 .buttons\:colors-red {
     background-color: #ff5050;
     transition-duration: 0.3s;
-    color: white;
+    color: white
 }
 
 .buttons\:colors\:red:hover {background-color: #ff8080;}
 
 .buttons\:colors-green {
     background-color: #66ff66;
-    transition-duration: 0.3s;
+    transition-duration: 0.3s
 }
 
 .buttons\:colors-green:hover {background-color: #99ff99;}
@@ -24,14 +24,14 @@ Made in Poland with 💖
 .buttons\:colors-blue {
     background-color: #4d94ff;
     transition-duration: 0.3s;
-    color: white;
+    color: white
 }
 
 .buttons\:colors-blue:hover {background-color: #80b3ff;}
 
 .buttons\:colors\:yellow {
     background-color: #ffff4d;
-    transition-duration: 0.3s;
+    transition-duration: 0.3s
 }
 
 .buttons\:colors-yellow:hover {background-color: #ffffb3;}
@@ -39,7 +39,7 @@ Made in Poland with 💖
 .buttons\:colors\:pink {
     background-color: #ff66ff;
     transition-duration: 0.3s;
-    color: white;
+    color: white
 }
 
 .buttons\:colors-pink:hover {background-color: #ff99ff;}
@@ -47,7 +47,7 @@ Made in Poland with 💖
 .buttons\:colors\:purple {
     background-color: #9933ff;
     transition-duration: 0.3s;
-    color: white;
+    color: white
 }
 
 .buttons\:colors-purple:hover {background-color: #b366ff;}
@@ -68,7 +68,7 @@ Made in Poland with 💖
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .buttons\:round {
@@ -79,5 +79,5 @@ Made in Poland with 💖
     display: inline-block;
     font-size: 14px;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer
 }
