@@ -1,9 +1,9 @@
-/*
+/*!
 GCSS Buttons
-Copyright (©) 2020-2021, honkdev
-License available @ https://github.com/honkdevelopment/gcss/blob/code/LICENSE
+Copyright (©) 2020-2022, Material Global
+License available at https://github.com/MaterialGlobal/gcss/blob/code/LICENSE
 
-Made in Poland with 💖
+Made by honklol on GitHub with 💖
 */
 
 .buttons\:colors-red {
@@ -11,57 +11,51 @@ Made in Poland with 💖
     transition-duration: 0.3s;
     color: white
 }
+.button\:red:hover {background-color: #ff8080;}
 
-.buttons\:colors\:red:hover {background-color: #ff8080;}
-
-.buttons\:colors-green {
+.button\:green {
     background-color: #66ff66;
     transition-duration: 0.3s
 }
+.button\:green:hover {background-color: #99ff99;}
 
-.buttons\:colors-green:hover {background-color: #99ff99;}
-
-.buttons\:colors-blue {
+.button-color\:blue {
     background-color: #4d94ff;
     transition-duration: 0.3s;
     color: white
 }
+.button-color\:blue:hover {background-color: #80b3ff;}
 
-.buttons\:colors-blue:hover {background-color: #80b3ff;}
-
-.buttons\:colors\:yellow {
+.button-color\:yellow {
     background-color: #ffff4d;
     transition-duration: 0.3s
 }
+.button-color\:yellow:hover {background-color: #ffffb3;}
 
-.buttons\:colors-yellow:hover {background-color: #ffffb3;}
-
-.buttons\:colors\:pink {
+.button-color\:pink {
     background-color: #ff66ff;
     transition-duration: 0.3s;
     color: white
 }
+.button-color\:pink:hover {background-color: #ff99ff;}
 
-.buttons\:colors-pink:hover {background-color: #ff99ff;}
-
-.buttons\:colors\:purple {
+.button-color\:purple {
     background-color: #9933ff;
     transition-duration: 0.3s;
     color: white
 }
+.button-color\:purple:hover {background-color: #b366ff;}
 
-.buttons\:colors-purple:hover {background-color: #b366ff;}
+.button-size\:1 {font-size: 10px !important}
+.button-size\:2 {font-size: 12px !important}
+.button-size\:3 {font-size: 14px !important}
+.button-size\:4 {font-size: 16px !important}
+.button-size\:5 {font-size: 24px !important}
+.button-size\:6 {font-size: 32px !important}
+.button-size\:7 {font-size: 48px !important}
+.button-size\:8 {font-size: 64px !important}
 
-.buttons\:size-1 {font-size: 10px !important}
-.buttons\:size-2 {font-size: 12px !important}
-.buttons\:size-3 {font-size: 14px !important}
-.buttons\:size-4 {font-size: 16px !important}
-.buttons\:size-5 {font-size: 24px !important}
-.buttons\:size-6 {font-size: 32px !important}
-.buttons\:size-7 {font-size: 48px !important}
-.buttons\:size-8 {font-size: 64px !important}
-
-.buttons\:flat {
+.button\:flat {
     border: none;
     padding: 11px 20px;
     text-align: center;
@@ -71,7 +65,7 @@ Made in Poland with 💖
     cursor: pointer
 }
 
-.buttons\:round {
+.button\:round {
     border: none;
     padding: 11px 20px;
     text-align: center;

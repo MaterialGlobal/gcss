@@ -1,4 +1,4 @@
-const express = require('express');
+import express from "express";
 const app = express();
 
 // External
@@ -11,17 +11,12 @@ app.get('/ext/sanitize', (req, res) => {
 })
 
 // Packages
-
 app.get('/pkg/bundle', (req, res) => {
   res.sendFile(__dirname + '/public/packages/bundle.min.css');
 })
 
 app.get('/pkg/core', (req, res) => {
   res.sendFile(__dirname + '/public/packages/core.min.css');
-})
-
-app.get('/pkg/colors', (req, res) => {
-  res.sendFile(__dirname + '/public/packages/colors.min.css');
 })
 
 app.get('/pkg/buttons', (req, res) => {

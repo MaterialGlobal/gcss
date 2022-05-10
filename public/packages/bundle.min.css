@@ -1,1 +1,7 @@
-@import url('https://gcss.honk.digital/packages/buttons.min.css');@import url('https://gcss.honk.digital/packages/core.min.css');@import url('https://gcss.honk.digital/packages/fonts.min.css');@import url('https://gcss.honk.digital/packages/tooltips.min.css');
+/*!
+GCSS Complete Bundle
+Copyright (©) 2020-2022, Material Global
+License available at https://github.com/MaterialGlobal/gcss/blob/code/LICENSE
+
+Made by honklol on GitHub with 💖
+*/@import url("https://gcss.honklol.repl.co/pkg/core");@import url("https://gcss.honklol.repl.co/pkg/fonts");@import url("https://gcss.honklol.repl.co/pkg/buttons");@import url("https://gcss.honklol.repl.co/pkg/tooltips");
