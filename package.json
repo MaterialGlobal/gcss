@@ -1,0 +1,27 @@
+{
+  "name": "gcss",
+  "version": "1.0.0",
+  "description": "GCSS is an easy to use CSS framework allowing you to create awesome and cool websites with no CSS knowledge at all. It's focused on being optimized, fast and having much features for you to use. It currently takes below 100 ms to transfer the file to your computer. That's less than 0.1 seconds!",
+  "main": "index.ts",
+  "scripts": {
+    "production": "node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaterialGlobal/gcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaterialGlobal/gcss/issues"
+  },
+  "homepage": "https://github.com/MaterialGlobal/gcss#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node": "^17.7.2",
+    "npm": "^8.9.0",
+    "typescript": "^4.6.4",
+    "vue": "^3.2.33"
+  }
+}
